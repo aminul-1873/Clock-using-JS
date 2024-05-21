@@ -1,0 +1,36 @@
+.clockContainer{
+    height: 90vh;
+    width: 90vh;
+    margin: auto;
+    border: 2px blue solid;
+    background-image: url(Analogue_clock.png);
+    background-size: 100%;
+}
+
+.hand{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+.hour{
+    height: 32%;
+    width: 1%;
+    top: 16%;
+    left: 49.5%;
+}
+
+.minute{
+    height: 34.5%;
+    width: 0.7%;
+    top: 16%;
+    left: 49.5%;
+}
+
+.second{
+    height: 37%;
+    width: 0.4%;
+    top: 12%;
+    left: 49.5%;
+}
